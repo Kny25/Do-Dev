@@ -1,0 +1,81 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+dialog {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / .5);
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .5);
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(141, 141, 141);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.paragrafo {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.exit {
+    border: none;
+    background-color: rgb(53, 53, 53);
+    border-radius: 4px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: aliceblue;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.nao {
+    border: none;
+    background-color: rgb(53, 53, 53);
+    border-radius: 4px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 57px;
+    color: aliceblue;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(69, 71, 70);
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(3, 37, 110);
+    text-align: center;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 27vh;
+    margin-bottom: 2vh;
+}
+
+input{
+    display: block;
+    padding: 4vh 10vw;
+    margin: auto;
+    margin-bottom: 7vh;
+    outline: none;
+    background-color: rgb(3, 23, 66);
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 9vw;
+    background-color: rgb(5, 83, 151);
+    border-radius: 20px;
+}
+a:hover{
+    background-color: rgb(33, 130, 214);
+}
