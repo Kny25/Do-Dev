@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.corpo {
+    height: 90vh;
+    width: 90vw;
+    margin: 5vh 5vw;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.cabecalho {
+    background-color: rgb(136, 85, 85);
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.grid {
+    background-color: blue;
+    height: 21vh;
+    width: 30vw;
+    float: left;
+    margin: 25px 3vw 0px 10vw;
+    cursor: pointer
+}
+grid :hover{
+background-color: rgb(0, 0,0);
+}

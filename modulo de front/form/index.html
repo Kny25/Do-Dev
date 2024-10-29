@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <h2>formulario</h2>
+        <p id="inverse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt corrupti praesentium aliquam, eveniet,
+            dolores consectetur non sed quod alias delectus molestias necessitatibus laboriosam blanditiis aliquid
+            placeat ut aspernatur commodi?</p>
+    </div>
+</head>
+<h1 class="h1inverse">theme light or dark</h1>
+<body id="corpo">
+    <div class="container" id="container">
+        <button id="dark" onclick="inverseTheme()"></button>
+        <button id="clear" onclick="returnTheme()"></button>    
+    </div>
+    <form class="form" id="form">
+        <h1>responda</h1>
+        <div class="modelo">
+            <p class="e">qual o modelo do seu carro: </p>
+            <input type="text" name="modelo" id="modelo">
+        </div>
+        <div class="esp"></div>
+        <div class="marca">
+            <p class="e">qual a marca do seu carro: </p>
+            <input type="text" name="marca">
+        </div>
+        <div class="esp"></div>
+        <div class="ano">
+            <p class="e">insira o ano do seu carro: </p>
+            <input type="text" name="ano">
+        </div>
+        <div class="esp"></div>
+        <div class="quilometragem">
+            <p class="e">quilometragem do seu carro: </p>
+            <input type="text" name="quilometragem">
+        </div>
+        <div class="esp"></div>
+        <div class="valor">
+            <p class="e"> insira o valor do seu carro:</p>
+            <input type="text" name="valor">
+        </div>
+        <div>
+            <label for="usado" class="usd">usado</label>
+            <label for="novo" class="nv">novo</label>
+        </div>
+        <div class="opc">
+            <h4 class="aux">seu carro é ?</h4>
+            <input type="radio" id="usado" name="estado" value="usado">
+            <input type="radio" id="novo" name="estado" value="novo">
+        </div>
+        <div>
+            
+        </div>
+        <div class="check">
+            <div>
+                <input type="checkbox" class="i" name="opcional" value="airbag">
+                <p>airbag</p>
+            </div>
+            <div>
+                <input type="checkbox" class="i" name="opcionaal1" value="ar condicionado">
+                <p>ar condicionado</p>
+            </div>
+            <div>
+                <input type="checkbox" class="i" name="opcional2" value="estepe">
+                <p>estepe</p>
+            </div>
+            <div>
+                <input type="checkbox" class="i" name="opcional4" value="alarme">
+                <p>alarme</p>
+            </div>
+            <div>
+                <input type="checkbox" class="i" name="opcional5" value="aerofolio">
+                <p>aerofolio</p>
+            </div>
+        </div>
+        <div class="cars">
+            <label for="finalDaPlaca">final da placa:</label>
+            <select name="finalDaPlaca" id="cars">
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+            </select>
+        </div>
+        <div id="btnSubmit">
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>

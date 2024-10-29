@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="form">
+        <section class="headerForm">
+            <h1>cadastre sua loja</h1>
+        </section>
+        <section class="contentForm">
+            <section class="informacoes">
+                <label for="nome">digite o nome da sua loja: </label>
+                <input id="nome" name="nome" type="text"> <br>
+                <div></div>
+                <label for="adress">digite o endereço da sua loja: </label>
+                <input id="adress" name="adress" type="text">
+            </section>
+            <section class="funcionamento">
+                <p>Selecione quais dias da semana sua loja tem funcionamento</p>
+                <label for="segunda"> Segunda-feira</label>
+                <input id="segunda" name="segunda" class="input" type="checkbox"> <br>
+                <label for="terca"> Terça-feira</label>
+                <input id="terca" name="terca" class="input" type="checkbox"> <br>
+                <label for="quarta"> Quarta-feira</label>
+                <input id="quarta" name="quarta" class="input" type="checkbox"> <br>
+                <label for="quinta"> Quinta-feira</label>
+                <input id="quinta" name="quinta" class="input" type="checkbox"> <br>
+                <label for="sexta"> Sexta-feira</label>
+                <input id="sexta" name="sexta" class="input" type="checkbox"> <br>
+                <label for="sabado"> Sabado</label>
+                <input id="sabado" name="sabado" class="input" type="checkbox"> <br>
+                <label for="Domingo"> Domingo</label>
+                <input id="Domingo" name="domingo" class="input" type="checkbox">
+            </section>
+            <section class="horarios">
+                <label for="horarios">Digite o horario de abertura e fechamento de sua loja</label>
+                <input id="horarios" name="abertura" type="text" placeholder="Hora de abertura">
+                <input id="horarios" class="horario" type="text" name="fechamento" placeholder="Hora de fechamento">
+            </section>
+            <button type="submit" class="submit">cadastrar</button>
+            <button type="button" class="preenchimento">preenchimento autmatico</button>
+        </section>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

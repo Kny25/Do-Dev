@@ -1,0 +1,253 @@
+*{
+ border: none;
+}
+
+
+.form {
+    background-color: rgb(255, 255, 255);
+    width: 49vw;
+    height: 79vh;
+    margin-left: 25vw;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: 5px solid rgb(42, 105, 221);
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding: 10px;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+.header p {
+    margin-left: 30px;
+    color: rgb(119, 120, 121);
+}
+
+.header {
+    background-color: rgb(250, 250, 250);
+    height: 12vh;
+    width: 50.3vw;
+    margin-left: 25vw;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-top: 10px solid rebeccapurple;
+    display: inline-block;
+}
+
+body {
+    background-color:#2c2c2c;
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+#submit {
+    padding: 15px;
+    border: none;
+    background-color: rgba(137, 43, 226, 0.726);
+    border-radius: 5px;
+    margin-left: 47%;
+    cursor: pointer;
+}
+
+#btnSubmit {
+    border-top: 1px solid rgb(119, 120, 121);
+    width: 46vw;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.esp{
+    margin-left: 100px;
+    background-color: rgb(238, 236, 236);
+    width: 70%;
+    height: 1%;
+}
+.modelo{
+    margin-left: 100px;
+    background-color: rgb(238, 236, 236);
+    width: 70%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modelo p{
+    float: left;
+    color: rgb(56, 56, 56);
+    margin-left: 35px;
+}
+.modelo input{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.marca {
+    margin-left: 100px;
+    background-color: rgb(238, 236, 236);
+    width: 70%;
+}
+.marca p{
+    float: left;
+    color: rgb(56, 56, 56);
+    margin-left: 35px;
+}
+.marca input{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.ano{
+    margin-left: 100px;
+    background-color: rgb(238, 236, 236);
+    width: 70%;
+}
+.ano p{
+    float: left;
+    color: rgb(56, 56, 56);
+    margin-left: 35px;
+}
+.ano input{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.quilometragem{
+    margin-left: 100px;
+    background-color: rgb(238, 236, 236);
+    width: 70%;
+}
+.quilometragem p{
+    float: left;
+    color: rgb(56, 56, 56);
+    margin-left: 35px;
+}
+.quilometragem input{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.valor{
+    margin-left: 100px;
+    background-color: rgb(238, 236, 236);
+    width: 70%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 15px;
+}
+.valor p{
+    float: left;
+    color: rgb(56, 56, 56);
+    margin-left: 35px;
+}
+.valor input{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#usado{
+margin: 10px 22%;
+cursor: pointer;
+}
+#novo{
+    padding: 10px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+.opc{
+    background-color: rgb(238, 236, 236);
+    width: 71%;
+    margin-top: 7px;
+    margin-right: 174px;
+    float: right;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+.usd{
+    margin-left: 35%;
+    cursor: pointer;
+}
+.nv{
+    margin-left: 18%;
+    cursor: pointer;
+}
+input{
+    border: none;
+    margin: 10px 10px;
+    border-bottom: 1px solid  rgb(141, 140, 140);
+    background-color: rgb(238, 236, 236);
+    outline: 0;
+}
+.i{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.check{
+    background-color: rgb(153, 153, 153);
+    width: 25%;
+    margin-left: 35%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.check p{
+    color: black;
+}
+.check input{
+    cursor: pointer;
+}
+#cars{
+    outline: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cars{
+    width: 20%;
+    margin-left: 347px;
+    margin-top: 10px;
+    background-color: rgb(153, 153, 153);
+    padding: 5px;
+    border-radius: 10px;
+}
+.cars label{
+    margin-left: 15px;
+}
+body{
+    transition: .5s;
+}
+.h1inverse{
+    margin-top: 50px;
+    width: 50px;
+    display: none;
+   float: right
+}
+
+.container {
+    width: 80px;
+    height: 40px;
+    background-color:#7c7a7a;
+    border-radius: 50px;
+    float: right;
+}
+
+#dark {
+    background-color: #000000;
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+    transform: scale(.9);
+    transition: 5s;
+    display: none;
+}
+
+#clear {
+    background-color: #b6b3b3;
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+    transform: scale(.9);
+    transition: .5s;
+}

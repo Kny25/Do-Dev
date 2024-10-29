@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+}
+
+.menuHumburguer{
+    position: absolute;
+    padding: 25px 12px;
+    border-radius: 50%;
+    margin-left: 0.8vw;
+    top: 2.2vh;
+    cursor: pointer;
+}
+.menuHumburguer:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.lateral:hover{
+    background-color: aliceblue;
+}
+
+.navBar {
+    position: absolute;
+    left: -15%;
+    width: 15%;
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    box-shadow: 15px 0px 31px -11px rgba(0, 0, 0, 0.75);
+    transition: 0.4s linear;
+}
+.header{
+    height: auto;
+    margin-bottom: 2vh;
+
+    img{
+        margin-left: 24%;
+        margin-top: 3vh;
+    }
+}
+
+.PrincipaisInfos {
+    width: 85%;
+    margin: auto;
+    border-bottom: 0.01vh solid white;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 0 6px 5%;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vh;
+    font-size: 19px;
+    cursor: pointer;
+
+    i {
+        margin-right: 1vw;
+    }
+}
+
+.infos:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.you {
+    width: 85%;
+    margin: auto;
+    margin-top: 2vh;
+    border-bottom: 0.01vh solid white;
+
+    h2 {
+        margin-left: 1vw;
+        margin-bottom: 1vh;
+    }
+}
+
+.Inscricoes {
+    width: 85%;
+    margin: auto;
+    margin-top: 2vh;
+
+    .canais {
+        margin-left: 1vw;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 10px 0 6px 5%;
+        margin-left: 0.5vw;
+        margin-bottom: 0.5vh;
+        font-size: 19px;
+        cursor: pointer;
+
+        p{
+            width: 60%;
+            margin-left: 1vw;
+            margin-top: 1vh;
+        }
+        i{
+            margin-top: 1vh;
+        }
+        img{
+            margin: 0;
+            width: 20%;
+            height: 5vh;
+            background-image: cover;
+            border-radius: 50%;
+        }
+    }
+}
+
+.canais:hover {
+    background-color: rgb(58, 58, 58);
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    transition: 0.4s linear;
+}
+
+.video{
+    width: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+
+    img{
+        width: 99%;
+        border-radius: 7px;
+        margin: auto;
+    }
+    .titulo{
+        i{
+            margin-top: 2vh;
+        }
+        h1{
+            display: inline-block;
+            width: 95%;
+            margin: 1vh 0;
+        }
+    }
+    .chanelName, .viwsEdata{
+        color: rgb(139, 139, 139);
+        font-size: 17px;
+    }
+    .time{
+        position: absolute;
+        right: 1vw;
+        top: 58%;
+        width: 2vw;
+        background-color: rgba(39, 39, 39, 0.699);
+        padding: 3px;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .navBar{
+        width: 50%;
+    }
+}
+@media(max-width:1000px){
+    .navBar{
+        width: 30%;
+        left: -30%;
+    }
+}
+@media(max-width:400px){
+    .navBar{
+        width: 90%;
+    }
+}

@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HeaderHome{
+    width: 50%;
+    height: 120vh;
+    margin-left: 25%;
+    margin-top: 2vh;
+    background-color: rgb(247, 247, 248);
+    height: 5vh;
+
+        .menu{
+            display: inline-block;
+            background-color: rgb(205, 205, 206);
+            width: 5vw;
+            height: 105.4vh;
+
+            img{
+                margin-top: 5px;
+                margin-left: 0.6vw;
+            }
+        }
+
+        .a{
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 5vw;
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .a1{
+            color: black;
+            text-decoration: none;
+            margin-left: 2vw;
+        }
+        .a2{
+            color: black;
+            text-decoration: none;
+            margin-left: 2vw;
+        }
+        .carrinho{
+            float: inline-end;
+            margin-right: 2vw;
+            margin-top: 25px;
+            border: none;
+            background-color: rgb(247, 247, 248);
+            cursor: pointer;
+        }
+}
+
+.content{
+    width: 50%;
+    height: 135vh;
+    margin-left: 25%;
+    padding-top: 10vh;
+    background-color: rgba(233, 231, 231, 0.432);
+
+    h1{
+     margin-bottom: 5vh;
+     margin-left: 38%;
+    }
+    span{
+        margin-left: 34%;
+    }
+    button{
+        display: block;
+        margin:1vh 0 20px 23vw;
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 8px 20px;
+        cursor: pointer;
+    }
+    .imgHome{
+        margin-left: 8.6%;
+        margin-bottom: 3vh;
+    }
+    p{
+        margin-left: 40%;
+        margin-bottom: 3vh;
+        font-size: 20px;
+    }
+    .Modelo1{
+       margin-left: 4.8vw;
+       margin-right: 0.5vw;
+    }
+    .modelo3{
+        margin-left: 0.5vw;
+        margin-right: 4vw;
+    }
+    .span1{
+        margin-left: 4.8vw;
+        margin-right: 7.3vw;
+    }
+    .span2{
+        margin: 0;
+    }
+    .span3{
+        margin-left: 12vw;
+    }
+    h2{
+        margin-top: 5vh;
+        margin-left: 4.8vw;
+        margin-bottom: 2vh
+    }
+    .button{
+        display: inline-block;
+        margin-left: 6.5vw;
+        padding: 10px 35px;
+    }
+    #Nome{
+        margin-left: 5vw;
+        margin-bottom: 10px;
+        text-align: center;
+        border: none;
+        background-color: rgb(202, 202, 202);
+        padding: 15px 4vw;
+        border-radius: 10px;
+    }
+    #Email{
+        text-align: center;
+        border: none;
+        background-color: rgb(202, 202, 202);
+        padding: 15px 4vw;
+        border-radius: 10px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    #telefone{
+        margin-left: 5vw;
+        text-align: center;
+        border: none;
+        background-color: rgb(202, 202, 202);
+        padding: 15px 4vw;
+        border-radius: 10px;
+    }
+}
+
+.pop-up{
+    border: none;
+    margin-left: 33vw;
+    margin-top: 7%;
+    width: 30%;
+    height: 80vh;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    transition: 0.5s;
+
+    img{
+        float: inline-end;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .cart{
+        display: inline-block;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        font-size: 25px;
+    }
+    .produtos{
+        width: 85%;
+        margin: 0 7.5%;
+        height: 61vh;
+        margin-top: 4vh;
+    }
+    .product{
+        margin-bottom: 2vh;
+        border-bottom: 1px solid black;
+
+        .productNome{
+            margin: 0.5vh 0 1.5vh 0;
+            display: inline-block;
+            width: 52%;
+        }
+        .precoPruduct{
+        width: 22%;
+        text-align: end;
+        display: inline-block;
+        margin: 0;
+    }
+        .qtdPruduct{       
+            margin: 0;
+            width: 6%;
+            outline: none;
+            text-align: end;
+            padding: 0.5vh 0.5vw;
+            display: inline-block;
+    }
+    }
+
+ .remove{
+     float: inline-end;
+     margin: 0;
+    }
+
+    .end{
+        margin-left: 2.5%;
+        width: 95%;
+        border-top: 1px solid black;
+
+        .Valor{
+            font-size: 30px;
+            float: inline-end;
+            margin: 1.5vh 0.2vw 0 0;
+        }
+        .total{
+            margin-left: 0;
+            margin-top: 1.5vh;
+            display: inline-block;
+            font-size: 25px;
+        }
+    }
+}
+.pop-up2{
+    display:none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 5vw;
+    height: 105.4vh;
+    border: none;
+    overflow: hidden;
+
+    .span{
+        display: inline-block;
+        margin-left: 21vw;
+        width: 20vw;
+        font-size: 25px;
+    }
+
+    a{
+      display: block;
+      margin: 2vh 7vw;
+      width: 40vw;
+      border-bottom: 1px solid black;
+      text-decoration: none;
+      color: black; 
+      font-size: 20px;
+    }
+}
+ .pop-up2:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.623);
+    border-top-right-radius: 10px;
+    background-color: rgb(247, 247, 250);
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    transition: 0.5s;
+}
+
+
+
+
+@media (max-width: 850px){
+   .HeaderHome{
+    width: 60%;
+    margin-left: 20%;
+
+    .a{
+        margin-left: 25vw;
+        margin-top: 2.5vh;
+    }
+    .a1{
+        display: none;
+        margin-left: 19vw;
+    }
+    .a2{
+        display: none;
+        margin-left: 19vw;
+    }
+    
+    .pop-up2{
+        display: inline-block;
+    }
+    
+   }
+   .content{
+    width: 55%;
+    height: auto;
+
+    .span1{
+        margin-right: 2vw;
+    }
+    .span2{
+        margin: 0;
+    }
+    .span3{
+        margin-left: 10vw;
+    }
+    
+    h1{
+        margin-left: 25%;
+       }
+       span{
+        margin-left: 16%;
+    }
+    #Nome{
+        padding: 15px 1vw;
+        margin-right: 0;
+        margin-left: 4vw;
+    }
+    #Email{
+        padding: 15px 1vw;
+        margin-right: 0;
+        margin-left: 1vw;
+        margin-bottom: 1vh;
+    }
+    #telefone{
+        margin-left: 4vw;
+        padding: 15px 1vw;
+    }
+    .button{
+        margin-left: 5vw;
+    }
+}
+    .pop-up{
+        width: 55%;
+        margin-left: 22%;
+        margin-top: 10%;
+
+        .itens{
+            margin-left: 2vw;
+        }
+        .item{
+            margin-left: 0;
+        }
+        .item2{
+            margin-left: 0;
+        }
+    }
+}

@@ -1,0 +1,360 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg,black, rgb(28, 61, 168));
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    background-color: rgb(5, 24, 77);
+    height: 5vh;
+    color: aliceblue;
+}
+.Calculadora{
+    height: 50vh;
+    width: 20%;
+    min-width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    box-shadow: 1px 1px 23px 5px rgba(0,0,0,0.79);
+}
+.header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 10vh;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    i{
+        margin-left: 2vw;
+        margin-top: 5vh;
+    }
+}
+.painel{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 95%;
+    height: 7vh;
+    background-color: rgb(223, 223, 223);
+    margin: auto;
+    border-radius: 5px;
+
+    p{
+        margin-right: 1vh;
+        font-size: 40px;
+        color: black;
+    }
+}
+.content{
+    margin: auto;
+    margin-top: 1vh;
+    width: 90%;
+    position: relative;
+
+}
+.colum1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    .c{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1vw;
+        width: 21.5%;
+        text-decoration: none;
+        height: 6vh;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .delete{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1vw;
+        width: 21.5%;
+        text-decoration: none;
+        height: 6vh;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .barra{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .X{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+}
+.colum2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    .sete{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1vw;
+        width: 21.5%;
+        height: 6vh;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .oito{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .nove{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .menos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+}
+.colum3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+
+    .quatro{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1vw;
+        width: 21.5%;
+        height: 6vh;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .cinco{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .seis{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .mais{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+}
+.colum4{
+    display: flex;
+    margin-bottom: 1vh;
+    flex-direction: row;
+
+    .um{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .dois{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21.5%;
+        height: 6vh;
+        text-align: center;
+        margin-right: 1vw;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .tres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21.5%;
+        height: 6vh;
+        margin-right: 1vw;
+        text-align: center;
+        font-size: 25px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .igual{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 21.5%;
+        height: 13vh;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+}
+.colum5{
+    display: flex;
+    margin-bottom: 1vh;
+    width: 79.5%;
+    position: absolute;
+    top: 82.7%;
+
+    .zero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 72%;
+        height: 6vh;
+        margin-right: 1vw;
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+    .ponto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32.5%;
+        height: 6vh;
+        font-size: 25px;
+        margin-right: 1vw;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(34, 35, 54);
+        box-shadow: 10px 10px 20px -10px rgba(0,0,0,1);
+    }
+}
+@media (max-width: 1300px) {
+    .Calculadora{
+        width: 30%;
+    }
+}
+@media (max-width: 1000px) {
+    .Calculadora{
+        width: 40%;
+    }
+}
+@media (max-width: 700px) {
+    .Calculadora{
+        width: 60%;
+    }
+}
+@media (max-width: 400px) {
+    .Calculadora{
+        margin-top: 30%;
+        width: 90%;
+    }
+}

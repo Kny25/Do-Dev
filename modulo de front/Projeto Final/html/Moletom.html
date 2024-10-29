@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleMoletom.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="HeaderProduct">
+        <div class="pop-up2">
+            <div class="menu">
+                <img src="/imgs/menu Hamburguer.png" alt="menu Hamburguer" width="30px">
+                <span class="span">Dodev menu</span>
+                <a class="Home" href="Home.html"> Home</a>
+                <a class="SObreNos" href="sobreNos.html">Sobre Nós</a>
+            </div>
+        </div><!--  -->
+        <a href="sobreNos.html" class="a">Dodev Clothes</a>
+        <a href="Home.html" class="a1">Home</a>
+        <a href="sobreNos.html" class="a2">Sobre Nós</a>
+        <img class="carrinho" src="/imgs/carrinho-carrinho.png" alt="aba do carrinho" width="25px">
+    </header>
+
+    <div class="content">
+        <dialog class="pop-up">
+            <p class="cart"> Dodev Cart</p>
+           <img class="close" src="/imgs/close.png" alt="Fechar" width="40px">
+           <div class="itens">
+             <div class="produtos">
+            <div style="display: none;" class="product">
+                <p class="productNome">Camisa preta lisa</p>
+                <input class="qtdPruduct" value="1" min="1" type="number">
+                <p class="precoPruduct">0</p>
+                <button class="remove">X</button>
+            </div>
+           
+           </div>
+           <div class="end">
+            <span class="total">Total</span>
+            <span class="Valor">R$00,0</span>
+        </div>
+       </dialog>
+       <div>
+        <div class="infos">
+            <p class="nome"> Moletom</p>
+            <h1>R$</h1>
+            <h2>129,90</h2>
+            <span class="Quantity">Quantity</span>
+            <div class="adicionar">
+                <button class="menos">-</button>
+                <span class="QuantityValue">1</span>
+                <button class="mais">+</button>
+            </div>
+            <button class="add">Adicionar ao Carrinho</button>
+        </div>
+       <div class="imgs">
+        <img class="img1" onclick="TrocaImg(this)" src="/imgs/Moletom.jpeg" alt="foto 2 sueter" width="46.9%" > 
+        <img class="img2" onclick="TrocaImg(this)" src="/imgs/moletom2.jpeg" alt="Foto 1 do moletom" width="16.8%">
+        <img class="img3" onclick="TrocaImg(this)" src="/imgs/Moletom.jpeg" alt="foto 2 moletom" alt="Camiseta 2" width="14.0%">
+        <img class="img4" onclick="TrocaImg(this)" src="/imgs/moletom3.jpeg" alt="foto 4 do Moletom" width="15.3%">
+       </div>
+       </div>
+    </div>
+    <div class="rodape">
+        <h2>receba promoções</h2>
+        <input id="Nome" type="text" placeholder="seu nome">
+        <input id="Email" type="email" placeholder="seu E-mail">
+        <input id="telefone" type="tel" placeholder="Seu telefone">
+        <button class="button"> enviar</button>
+        <div class="atalhos">
+            <a href="sobreNos.html" class="aR">Dodev Clothes</a>
+        <a href="Home.html" class="aR1">Home</a>
+        <a href="sobreNos.html" class="aR2">Sobre Nós</a>
+        </div>
+    </div>
+    <script src="/js/scriptProducts.js">
+    </script>
+</body>
+</html>

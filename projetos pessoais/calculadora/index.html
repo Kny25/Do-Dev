@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="Calculadora">
+        <header class="header">
+            <div class="painel">
+                <p class="textoPainel">0</p>
+            </div>
+        </header>
+        <div class="content">
+            <div class="colum1">
+                <a href="index.html" class="c">c</a>
+                <p class="delete"><i class="fa-solid fa-delete-left fa-xs"></i></p>
+                <p onclick="AddNumber(this)" class="barra">/</p>
+                <p onclick="AddNumber(this)" class="X">*</p>
+            </div>
+            <div class="colum2">
+            <p onclick="AddNumber(this)" class="sete">7</p>
+            <p onclick="AddNumber(this)" class="oito">8</p >
+            <p onclick="AddNumber(this)" class="nove">9</p>
+            <p onclick="AddNumber(this)" class="menos">-</p>    
+            </div>
+            <div class="colum3">
+            <p onclick="AddNumber(this)" class="quatro">4</p>
+            <p onclick="AddNumber(this)" class="cinco">5</p>
+            <p onclick="AddNumber(this)" class="seis">6</p>
+            <p class="mais" onclick="AddNumber(this)">+</p>
+            </div>
+            <div class="colum4">
+                <p onclick="AddNumber(this)" class="um">1</p>
+                <p onclick="AddNumber(this)" class="dois">2</p>
+                <p onclick="AddNumber(this)" class="tres">3</p>
+                <p class="igual" aria-colspan="2">=</p>
+            </div>
+            
+            <div class="colum5">
+                <p onclick="AddNumber(this)" class="zero" aria-rowspan="2">0</p>
+            <p onclick="AddNumber(this)" class="ponto">.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/04ec3056b0.js" crossorigin="anonymous"></script>
+    <Script src="index.js"></Script>
+</body>
+</html>

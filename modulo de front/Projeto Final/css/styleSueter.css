@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HeaderProduct{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2vh;
+    background-color: rgb(247, 247, 248);
+    height: 5vh;
+
+        .menu{
+            display: inline-block;
+            background-color: rgb(205, 205, 206);
+            width: 5vw;
+            height: 184vh;
+
+            img{
+                margin-top: 5px;
+                margin-left: 0.6vw;
+            }
+        }
+        .carrinho{
+            float: inline-end;
+            margin-right: 30px;
+            margin-top: 1.3vh;
+            cursor: pointer;
+        }
+
+        .a{
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 15vw;
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .a1{
+            color: rgb(109, 108, 108);
+            text-decoration: none;
+            margin-left: 2vw;
+        }
+        .a2{
+            color: rgb(109, 108, 108);
+            text-decoration: none;
+            margin-left: 2vw;
+        }
+        a:hover{
+            color: black;
+           }
+}
+
+.content{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 7vh;
+    background-color: rgb(247, 247, 248);
+    height: 112vh;
+    margin-bottom: 2vh;
+    .imgs{
+        margin-left: 2vw;
+        width: 49.6vw;
+        margin-bottom: 5vh;
+    }
+    
+}
+.infos{
+    float: right;
+    height: 50vh;
+    width: 20vw;
+
+        .nome{
+            font-size: 25px;
+            margin-top: 15vh;
+        }
+        h1{
+            display: inline-block;
+            font-size: 28px;
+            margin-top: 2vh;
+            margin-bottom: 10vh;
+        }
+        h2{
+            display: inline-block;
+            font-size: 23px;
+        }
+        .Quantity{
+            font-size: 17px;
+            display: block;
+        }
+        .adicionar{
+            width: 13.6vw;
+            border: 1px solid black;
+            padding: 0.8vh 2vw;
+            margin: 0.2vh 0 1vh 0;
+
+            .menos{
+                font-size: 20px;
+                border: none;
+                margin-left: 3.3vh;
+                margin-right: 7.2vh;
+                padding: 10px;
+                cursor: pointer;
+                background-color: rgb(247, 247, 248);
+            }
+            .mais{
+                font-size: 20px;
+                margin-left: 6vh;
+                padding: 10px;
+                position: absolute;
+                margin-top: 2.5px;
+                border: none;
+                cursor: pointer;
+                background-color: rgb(247, 247, 248);
+            }
+        }
+        .add{
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 2vh 5.5vw;
+            cursor: pointer;
+        }
+
+}
+
+.rodape{
+    h2{
+        margin-left: 7%;
+        font-size: 30px;
+        margin-bottom: 3vh;
+    }   
+    #Nome{
+        padding: 15px 2vw;
+        margin-left: 6vw;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(173, 173, 173);
+        color: white;
+    }
+    #Email{
+        padding: 15px 2vw;
+        margin-left: 1vw;
+        margin-bottom: 1vh;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(173, 173, 173);
+        color: white;
+    }
+    #telefone{
+        margin-left: 6vw;
+        padding: 15px 2vw;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(173, 173, 173);
+        color: white;
+    }
+    .button{
+        margin-left: 5vw;
+        border: none;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        padding: 8px 25px;
+        cursor: pointer;
+    }
+    .atalhos{
+        margin-top: 3vh;
+        padding-top: 0.8vh;
+        border-top: 1px solid rgb(92, 92, 92);
+    }
+    .aR{
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 15vw;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .aR1{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-left: 2vw;
+    }
+    .aR2{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-left: 2vw;
+    }
+}
+.pop-up{
+    border: none;
+    margin-left: 33vw;
+    margin-top: 7%;
+    width: 30%;
+    height: 80vh;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    transition: 0.5s;
+     
+    p{
+        font-size: 20px;
+    }
+    img{
+        float: inline-end;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .cart{
+        display: inline-block;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        font-size: 25px;
+    }
+    .produtos{
+        width: 85%;
+        margin: 0 7.5%;
+        height: 64.5vh;
+        margin-top: 4vh;
+    }
+    .product{
+        margin-bottom: 2vh;
+        border-bottom: 1px solid black;
+
+        .productNome{
+            margin: 0.5vh 0 1.5vh 0;
+            display: inline-block;
+            width: 52%;
+        }
+        .precoPruduct{
+        width: 25%;
+        text-align: end;
+        display: inline-block;
+        margin: 0;
+    }
+        .qtdPruduct{       
+            margin: 0;
+            width: 6%;
+            outline: none;
+            text-align: end;
+            padding: 0.5vh 0.5vw;
+            display: inline-block;
+    }
+    }
+
+ .remove{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+     float: inline-end;
+     margin: 0;
+    }
+
+    .end{
+        margin-left: 2.5%;
+        width: 95%;
+        border-top: 1px solid black;
+
+        .Valor{
+            font-size: 30px;
+            float: inline-end;
+            margin-top: 1.5vh;
+        }
+        .total{
+            margin-left: 0;
+            margin-top: 1.5vh;
+            display: inline-block;
+            font-size: 25px;
+        }
+    }
+}
+
+.pop-up2{
+    display:none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 5vw;
+    height: 90vh;
+    border: none;
+    overflow: hidden;
+
+    .span{
+        display: inline-block;
+        margin-left: 21vw;
+        width: 20vw;
+        font-size: 25px;
+    }
+
+    a{
+      display: block;
+      margin: 2vh 7vw;
+      width: 40vw;
+      border-bottom: 1px solid black;
+      text-decoration: none;
+      color: black; 
+      font-size: 20px;
+    }
+}
+ .pop-up2:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.623);
+    border-top-right-radius: 10px;
+    background-color: rgb(247, 247, 250);
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    transition: 0.5s;
+}
+
+@media (max-width: 850px){
+    .HeaderProduct{
+     width: 60%;
+     margin-left: 20%;
+ 
+     .a{
+         margin-left: 25vw;
+         margin-top: 2.5vh;
+     }
+     .a1{
+         display: none;
+         margin-left: 19vw;
+     }
+     .a2{
+         display: none;
+         margin-left: 19vw;
+     }
+     
+     .pop-up2{
+         display: inline-block;
+     }
+     
+    }
+    .content{
+        width: 55%;
+        margin-left: 25%;
+        padding-top: 7vh;
+        background-color: rgb(247, 247, 248);
+        height: 78vh;
+        margin-bottom: 2vh;
+        max-height: 78vh;
+
+        .imgs{
+            margin-left: 2vw;
+            width: 53vw;
+            margin-bottom: 5vh;
+        }
+        .img1{
+            width: 53.1%;
+        }
+        #Nome{
+            padding: 15px 1vw;
+            margin-right: 0;
+            margin-left: 4vw;
+        }
+        #Email{
+            padding: 15px 1vw;
+            margin-right: 0;
+            margin-left: 1vw;
+            margin-bottom: 1vh;
+        }
+        #telefone{
+            margin-left: 4vw;
+            padding: 15px 1vw;
+        }
+        .button{
+            margin-left: 5vw;
+        }
+    }
+    .infos{
+        float: right;
+        height: 30vh;
+        width: 22vw;
+    
+            .nome{
+                margin-top: 2vh;
+            }
+            h1{
+                font-size: 28px;
+                margin-bottom: 5.2vh;
+            }
+            .Quantity{
+                font-size: 16px;
+            }
+            .adicionar{
+                width: 15vw;
+                padding: 0vh 2vw;
+    
+                .menos{
+                    margin-left: 0.3vh;
+                    margin-right: 3vh;
+                }
+                .mais{
+                    height: 1vh;
+                    margin-top: 0.2vh;
+                    margin-left: 3vh;
+                }
+            }
+            .add{
+                padding: 2vh 2vw;
+            }
+   
+ }
+ .pop-up{
+    width: 55%;
+    margin-left: 22%;
+    margin-top: 10%;
+
+    .itens{
+        margin-left: 2vw;
+    }
+    .item{
+        margin-left: 0;
+    }
+    .item2{
+        margin-left: 0;
+    }
+}
+.atalhos{
+    .aR{
+        margin-left: 10vw;
+    }
+}
+ }
